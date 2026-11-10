@@ -67,6 +67,11 @@ data = {
     ]
 }
 df = pd.DataFrame(data)
+# IMPORTANT (pandas 3 + pyarrow): text columns may use the "pyarrow" string type,
+# whose regex engine (RE2) does NOT support back-references such as \1 or
+# look-arounds such as (?<!...).  Converting the column to plain Python objects
+# makes pandas use Python's own `re` module, which supports everything below.
+df["post"] = df["post"].astype(object)
 
 
 def step(title, before, after):
@@ -98,7 +103,8 @@ EMOJI = (
     "☀-➿"          # misc symbols & dingbats (☀ ✓)
     "]+"
 )
-ELONGATED = r"(\w)\1{2,}"     # a letter followed by itself 2+ more times (3+ in a row)
+ELONGATED = r"([A-Za-z])\1{2,}"   # a LETTER followed by itself 2+ more times (3+ in a row)
+                                  # letters only: with \w, "35,000" would become "35,00"!
 NUMBER = r"\$?\d+(?:[.,]\d+)*(?:°[FC]|st|nd|rd|th)?"   # 100°F  $35,000  1st  14
 CAPITALS = r"\b[A-Z]{2,}\b"   # words written fully in capitals (NYC, WTF, LOL)
 

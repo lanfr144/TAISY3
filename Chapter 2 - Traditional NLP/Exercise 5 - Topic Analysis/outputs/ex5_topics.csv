@@ -1,0 +1,21 @@
+topic,top_words,n_posts,main_category,category_share
+0,"time, good, space, problem, years, long, use, used, power, ago",1530,sci.space,0.243
+1,"thanks, advance, mail, looking, info, information, help, email, address, appreciated",392,comp.graphics,0.166
+2,"god, jesus, bible, christ, believe, faith, christian, christians, sin, church",938,soc.religion.christian,0.569
+3,"drive, scsi, disk, hard, drives, ide, controller, floppy, mac, meg",544,comp.sys.ibm.pc.hardware,0.399
+4,"game, team, games, year, hockey, season, baseball, players, play, win",1119,rec.sport.hockey,0.559
+5,"windows, dos, version, running, run, mouse, microsoft, drivers, driver, problem",582,comp.os.ms-windows.misc,0.603
+6,"edu, university, ftp, article, david, email, mit, pub, uiuc, send",497,sci.electronics,0.091
+7,"key, chip, clipper, encryption, keys, escrow, government, algorithm, phone, use",665,sci.crypt,0.719
+8,"israel, jews, armenian, armenians, israeli, jewish, arab, turkish, war, arabs",589,talk.politics.mideast,0.854
+9,"geb, cadre, pitt, dsl, chastity, shameful, skepticism, intellect, surrender, gordon",106,sci.med,0.745
+10,"card, video, monitor, bus, cards, vga, drivers, driver, ram, color",733,comp.sys.ibm.pc.hardware,0.34
+11,"car, bike, cars, engine, miles, dealer, speed, oil, ford, rear",695,rec.autos,0.57
+12,"sale, new, offer, price, shipping, condition, interested, asking, sell, email",1017,misc.forsale,0.564
+13,"does, know, anybody, let, mean, info, appreciated, heard, work, doesn",1022,sci.electronics,0.099
+14,"com, list, mail, address, netcom, article, dave, ibm, mailing, phone",662,talk.politics.guns,0.089
+15,"file, program, files, window, use, image, format, ftp, graphics, server",1408,comp.windows.x,0.372
+16,"just, got, wondering, thought, did, wanted, maybe, didn, little, bike",1032,rec.motorcycles,0.114
+17,"people, government, right, gun, fbi, law, did, koresh, guns, batf",2071,talk.politics.guns,0.255
+18,"don, think, know, want, really, say, need, believe, read, mean",1323,rec.sport.baseball,0.088
+19,"like, sounds, looks, look, sound, really, things, lot, doesn, sure",1406,rec.motorcycles,0.1

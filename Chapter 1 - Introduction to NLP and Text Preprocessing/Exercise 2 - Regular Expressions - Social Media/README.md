@@ -66,6 +66,7 @@ into its own `outputs/` folder.  First time? Run `setup_environment.bat` in the 
 * Replacing numbers before phones/URLs → `<PHONE>` becomes `+<NUM> <NUM> <NUM>`.
 * Replacing `>>` before `>>>` → `>>>` becomes "greater than >".
 * `\b4\b` is needed so the `4` inside `iPhone14` is not turned into "for".
+* **pandas 3 + pyarrow:** text columns can use the *pyarrow* string type, whose regex engine (RE2) refuses back-references (`\1`) and look-arounds (`(?<!...)`) with `ArrowInvalid: invalid escape sequence`. The script converts the column with `.astype(object)` so pandas uses Python's `re` module.
 
 ## Files
 

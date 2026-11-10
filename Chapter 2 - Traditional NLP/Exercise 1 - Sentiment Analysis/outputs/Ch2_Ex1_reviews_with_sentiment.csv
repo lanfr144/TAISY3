@@ -1,0 +1,12 @@
+review,compound,sentiment,neg,neu,pos
+"I love this phone, the battery lasts forever!",0.6696,positive,0.0,0.572,0.428
+"The app is okay, it does what it should.",0.2263,positive,0.0,0.808,0.192
+It's a phone,0.0,neutral,0.0,1.0,0.0
+"The design is beautiful, but the performance is slow.",0.3506,positive,0.0,0.766,0.234
+This was the worst purchase I've made in years.,-0.6249,negative,0.339,0.661,0.0
+"Absolutely fantastic service, I’ll recommend it to everyone!",0.7707,positive,0.0,0.473,0.527
+"Oh no, what is this? I can't even use it as it is intended",-0.296,negative,0.155,0.845,0.0
+"It's a standard product, it works as it should but nothing more",0.0,neutral,0.0,1.0,0.0
+This laptop is super fast and lightweight!,0.636,positive,0.0,0.589,0.411
+"The taste is bland, not bad, just not great.",-0.1139,negative,0.251,0.533,0.217
+"The item is okay, nothing special but it gets the job done.",-0.0462,neutral,0.125,0.765,0.111
