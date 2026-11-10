@@ -1,0 +1,9 @@
+# TAISY3 exercises - Python packages
+# Install with:   pip install -r requirements.txt
+# (or double-click setup_environment.bat on Windows: it also downloads the language data)
+pandas>=1.5
+numpy>=1.23
+matplotlib>=3.5
+scikit-learn>=1.2
+nltk>=3.8
+spacy>=3.5

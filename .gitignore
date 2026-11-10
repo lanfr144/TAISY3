@@ -1,0 +1,26 @@
+# Old versions of the exercises - kept on the computer only
+exclude_from_git/
+
+# The IMDB dataset is 66 MB: only the compressed copy (data/Ch2_Ex1_IMDB.csv.zip) goes to GitHub
+data/Ch2_Ex1_IMDB.csv
+# Big generated result files (re-create them by running the scripts)
+**/outputs/Ch2_Ex2_IMDB_with_sentiment.csv
+
+# Course slides from the teacher (Moodle): stay on the computer
+*.pptx
+
+# Python / editors / Office
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+~$*
+*.tmp
+desktop.ini
+Thumbs.db
+
+# Output of run_all.bat
+run_output.txt

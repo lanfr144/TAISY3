@@ -1,0 +1,9 @@
+post,mentions,hashtags,capitalized_words,first_email,cleaned_post,word_count_before,word_count
+RT @user123: LOL!!! Can't believe it... 😂😂 http://bit.ly/3xYzQe,['@user123'],[],"['RT', 'LOL']",,laughing out loud can't believe it <EMOJI> <URL>,8,8
+Weather in NYC is CRAZY—100°F!! 🔥🔥 #climatechange,[],['#climatechange'],"['NYC', 'CRAZY']",,weather in nyc is crazy <NUM> <EMOJI> climatechange,7,8
+New iPhone14 released!!! Pre-order at https://apple.com 📱💸,[],[],[],,new iphone<NUM> released pre order at <URL> <EMOJI>,7,8
+Sooo happppyyyyy to get 1st placeeeee!!! 🏆🏆,[],[],[],,so happy to get <NUM> place <EMOJI>,7,7
+@friend Thanks 4 ur help!!! cu 2moro ;),['@friend'],[],[],,friend thanks for your help see you tomorrow,8,8
+"Bitcoin hits $35,000!! 🚀🚀 #crypto #btc",[],"['#crypto', '#btc']",[],,bitcoin hits <NUM> <EMOJI> crypto btc,6,6
+WTF??? Java >>> Python?????!! lololol,[],[],['WTF'],,what the heck java much greater than python laughing out loud,5,11
+Contact me: email_me@domain.co.uk OR +44 20 7946 0958,[],[],['OR'],email_me@domain.co.uk,contact me <EMAIL> or <PHONE>,8,5
